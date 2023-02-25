@@ -1,9 +1,9 @@
 # SFTP Export Integration Guide
 ### Setting Up SFTP Export Integration
 
-The SFTP gateway allows licensed customers to receive daily, per-facility raw predictions in json format. The payload also includes a base URL for downloading the PDF report that requires an additional secret (UI TBD). 
+The SFTP gateway allows licensed customers to receive daily, per-facility raw predictions in json format. The payload also includes a base URL for downloading the PDF report that requires an additional secret (UI TBD).
 
-In order to set up the integration, navigate to the Integrations section of MySAIVA located at app.saiva.ai. Note: You must be an Org Administrator in order to be able to access this function:
+In order to set up the integration, navigate to the Integrations section of MySAIVA located at [app.saiva.ai](https://app.saiva.ai "app.saiva.ai"). Note: You must be an Org Administrator in order to access this function:
 
 ![Integrations](https://raw.githubusercontent.com/saivaai/sftp-integration/dev/images/Integrations.png "Integrations")
 
@@ -45,7 +45,7 @@ Consumers of raw prediction files will have write/delete access permissions to t
 Raw predictions payload is json formatted according to the following schema:
 
     {
-        "$schema": "http://json-schema.org/draft-06/schema#",
+        "$schema": "https://github.com/saivaai/sftp-integration/tree/dev/schema",
         "$ref": "#/definitions/FacilityRiskReport",
         "definitions": {
             "FacilityRiskReport": {
@@ -243,3 +243,5 @@ Using curl:
         -H "Accept: application/pdf"
     
 A successful call to the above call will redirect to download using HTTPS the report file from a temporary URL that will expire after 5 minutes. 
+### Get Help
+For questions and support issues please contact support@saiva.ai
