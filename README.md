@@ -23,7 +23,9 @@ Click on `Connect` to save and activate your connection. It typically takes abou
 - Click `Test` to test your integration. When the test completes successfully you should see sample raw facility prediction files for the most recent day in the output directory
 - Use the `Enable/Disable` switch to temporarily disable your integration or to enable it
 - Click `Disconnect` to delete this integration. 
-> Note: When disconnecting, all exported files will be lost. This operation is irreversible. Test will succeed only if there is prior raw prediction data for the selected facilities
+> Notes: 
+> - When disconnecting, all exported files will be lost. This operation is irreversible. 
+> - Test will succeed only if there is prior raw prediction data for the selected facilities
 
 
 ### Availability of Raw Data
@@ -44,7 +46,7 @@ i.e. rth-sample-3-20231801.json
 ### Permissions
 Consumers of raw prediction files will have write/delete access permissions to the SFTP directory. They may choose to move files around, rename, create subdirectories as they see fit. SAIVA will not perform any file manipulation other than placing the files daily at the root directory  
 
-> Note: If multiple consumers are reading the files, please make sure to coordinate between consumers how files are handled after reading is complete in order not to create any conflicts.
+> Notes: If multiple consumers are reading the files, please make sure to coordinate between consumers how files are handled after reading is complete in order not to create any conflicts.
 
 ### Payload Schema and Examples
 Raw predictions payload is json formatted according to the following schema:
