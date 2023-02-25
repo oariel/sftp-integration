@@ -29,7 +29,7 @@ Raw predictions files for a any given day will be available by 8:00a Eastern Sta
 ### File naming Convention
 The file naming convention is as follows:
 
-` [report_type]-[client_id]-[facility_id]-[report_date YYYYMMDD].json
+` [report type]-[client id]-[facility id]-[report date YYYYMMDD].json
 `
 - report type - For RTH daily prediction exports use ‘rth’
 - client id - The SAIVA client ID
