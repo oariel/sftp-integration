@@ -163,7 +163,7 @@ Example file payload (QM = RTH, risk list length = 3):
     "facility_name": "Lincoln Center Transitional Rehab",
     "facility_id": 3,
     "report_date": "25/01/2023",
-    "report_download_url": "https://api.saiva.ai/v2/report/sample/rth/1/02142023",
+    "report_download_url": "https://api.saiva.ai/v2/report/sample/rth/1/20230214",
     "risk_list_length": 3,
     "risk_list": [
         {
