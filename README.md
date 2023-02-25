@@ -10,7 +10,7 @@ In order to set up the integration, navigate to the Integrations section of MySA
 
 Choose SFTP Export and click on `Connect` to enter the setup screen.
 
-Note the Select the facilities and the quality measures to export. For authentication, paste your public key into the Public Key placeholder:
+Select the facilities and the quality measures to export. For authentication, paste your public key into the Public Key placeholder:
 
 ![Connect](https://raw.githubusercontent.com/saivaai/sftp-integration/dev/images/sftp-connect.png "Connect")
 
