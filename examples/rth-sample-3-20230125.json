@@ -1,0 +1,66 @@
+{
+    "version": "v1",
+    "qm_type": "RTH",
+    "client": "Sample",
+    "facility_name": "Lincoln Center Transitional Rehab",
+    "facility_id": 3,
+    "report_date": "25/01/2023",
+    "risk_list_length": 3,
+    "risk_list": [
+        {
+            "patient_id": 79438,
+            "patient_mrn": "7188",
+            "rank_today": 1,
+            "rank_yesterday": null,
+            "days_ranked": 3,
+            "payer": "Medicaid Pending",
+            "primary_physician": "SANJAY PATEL",
+            "initial_admission_date": "10/26/2022",
+            "last_transfer_date": "01/19/2023",
+            "risk_rank_reasons": [
+                "5 days since last admission",
+                "Diagnosis of D631 : ANEMIA IN CHRONIC KIDNEY DISEASE",
+                "Diagnosis of H409 : UNSPECIFIED GLAUCOMA",
+                "Diagnosis of M6281 : MUSCLE WEAKNESS (GENERALIZED)"
+            ]
+        },
+        {
+            "patient_id": 79439,
+            "patient_mrn": "7211",
+            "rank_today": 2,
+            "rank_yesterday": 1,
+            "days_ranked": 5,
+            "payer": "EVER SECURE HOR/AARP MED COMP",
+            "primary_physician": "SANJAY PATEL",
+            "initial_admission_date": "11/18/2022",
+            "last_transfer_date": "12/01/2022",
+            "risk_rank_reasons": [
+                "Enoxaparin Sodium Injection Solution (Heparins And Heparinoid-Like Agents) was ordered on 01/24/2023",
+                "Resident with a diagnosis of CHF has no weight readings in the past 8 days. Last recorded weight of 118.5 lbs on 01/11/2023",
+                "1 day since last admission",
+                "Diagnostic order in last 30 days. Last Order: X Ray of sacrum to r/o OM . 27 days ago (on 12/29/2022)",
+                "Diagnosis of D631 : ANEMIA IN CHRONIC KIDNEY DISEASE",
+                "Albuterol Sulfate Inhalation Aerosol ordered 1 day ago (on 01/24/2023)"
+
+            ]
+        },
+        {
+            "patient_id": 79440,
+            "patient_mrn": "95249",
+            "rank_today": 3,
+            "rank_yesterday": null,
+            "days_ranked": 5,
+            "payer": "MCD COVENTRY",
+            "primary_physician": null,
+            "initial_admission_date": "10/12/2022",
+            "last_transfer_date": "12/20/2022",
+            "risk_rank_reasons": [
+                "15 days since last admission",
+                "Diagnosis of D649 : ANEMIA, UNSPECIFIED",
+                "AmLODIPine Besylate ordered 15 days ago (on 01/10/2023)",
+                "Diagnosis of B3749 : OTHER UROGENITAL CANDIDIASIS",
+                "Diagnosis of J9601 : ACUTE RESPIRATORY FAILURE WITH HYPOXIA"
+            ]
+        }
+    ]
+}
