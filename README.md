@@ -5,11 +5,17 @@ The SFTP gateway allows licensed customers to receive daily, per-facility raw pr
 
 In order to set up the integration, navigate to the Integrations section of MySAIVA located at app.saiva.ai. Note: You must be an Org Administrator in order to be able to access this function:
 
-Choose SFTP Export and click on `Connect` to enter the setup screen. 
+![Integrations](https://raw.githubusercontent.com/saivaai/sftp-integration/dev/images/Integrations.png "Integrations")
+
+Choose SFTP Export and click on `Connect` to enter the setup screen.
 
 Note the Select the facilities and the quality measures to export. For authentication, paste your public key into the Public Key placeholder:
 
-Click on `Connect` to save and activate your connection.
+![Connect](https://raw.githubusercontent.com/saivaai/sftp-integration/dev/images/sftp-connect.png "Connect")
+
+Click on `Connect` to save and activate your connection. It typically takes about a minute to setup the new connection depending on system load.
+
+![Test](https://raw.githubusercontent.com/saivaai/sftp-integration/dev/images/sftp-test.png "Test")
 
 - Click `Test` to test your integration. When the test completes successfully you should see sample raw facility prediction files for the most recent day in the output directory
 - Click `Disconnect` to delete this integration. Note: all exported files will be lost and this operation is not reversible
