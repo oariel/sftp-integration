@@ -231,7 +231,7 @@ In order to download the PDF report for the facility, use the report_download_ur
 For example:
 
 If:
-   report_download_url value is:  https://api.saiva.ai/v2/report/sample/rth/1/20230214
+   report_download_url value is for example: https://api.saiva.ai/v2/report/sample/rth/1/20230214
 
 Call:
    `GET https://api.saiva.ai/v2/report/sample/rth/1/20230214`
