@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$schema": "https://github.com/saivaai/sftp-integration/tree/dev/schema",
     "$ref": "#/definitions/FacilityRiskReport",
     "definitions": {
         "FacilityRiskReport": {
