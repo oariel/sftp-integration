@@ -19,7 +19,9 @@ Click on `Connect` to save and activate your connection. It typically takes abou
 ![Test](https://raw.githubusercontent.com/saivaai/sftp-integration/dev/images/sftp-test.png "Test")
 
 - Verify that you can log in and view your SFTP directory using the following command line, or using you SFTP client software
+
     sftp -i <Path To Private Key File> <Your Assigned Username>@<Your Assigned Host Name>
+   
 - Click `Test` to test your integration. When the test completes successfully you should see sample raw facility prediction files for the most recent day in the output directory
 - Use the `Enable/Disable` switch to temporarily disable your integration or to enable it
 - Click `Disconnect` to delete this integration. 
