@@ -19,7 +19,8 @@ Click on `Connect` to save and activate your connection. It typically takes abou
 ![Test](https://raw.githubusercontent.com/saivaai/sftp-integration/dev/images/sftp-test.png "Test")
 
 - Click `Test` to test your integration. When the test completes successfully you should see sample raw facility prediction files for the most recent day in the output directory
-- Click `Disconnect` to delete this integration. Note: all exported files will be lost and this operation is not reversible
+- Click `Disconnect` to delete this integration. 
+> Note: all exported files will be lost and this operation is not reversible
 - Click `Disable` to temporarily disable your integration
 
 ### Availability of Raw Data
