@@ -29,7 +29,7 @@ Click on `Connect` to save and activate your connection. It typically takes abou
 
 
 ### Availability of Raw Data
-Raw predictions files for a any given day will be available by 8:00a Eastern Standard Time
+Raw predictions files for a any given day will be available by **8:00a Eastern Standard Time**
 
 ### File naming Convention
 The file naming convention is as follows:
