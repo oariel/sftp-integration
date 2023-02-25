@@ -46,6 +46,7 @@ Consumers of raw prediction files will have write/delete access permissions to t
 ### Payload Schema and Examples
 Raw predictions payload is json formatted according to the following schema:
 
+ ```json
     {
         "$schema": "https://github.com/saivaai/sftp-integration/tree/dev/schema",
         "$ref": "#/definitions/FacilityRiskReport",
@@ -151,6 +152,7 @@ Raw predictions payload is json formatted according to the following schema:
             }
         }
     }
+    ```
 
 Example file payload (QM = RTH, risk list length = 3):
 
