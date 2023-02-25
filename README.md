@@ -238,9 +238,8 @@ Call:
 
 With the following secret value and accept mime type in the header:
 
-`x-report-secret: <SECRET VALUE>`
-
-`Accept: application/pdf`
+    x-report-secret: <SECRET VALUE>
+    Accept: application/pdf
 
 Using curl:
 
