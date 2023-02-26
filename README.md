@@ -1,5 +1,5 @@
 # SFTP Export Integration Guide
-### Setting Up SFTP Export Integration
+## Setting Up SFTP Export Integration
 
 The SFTP gateway allows licensed customers to receive daily, per-facility raw predictions in json format. The payload also includes a base URL for downloading the PDF report that requires an additional secret (UI TBD).
 
@@ -28,10 +28,10 @@ Click on `Connect` to save and activate your connection. It typically takes abou
 > - Test will produce output files on if raw prediction data aleady exists for the selected facilities
 
 
-### Availability of Raw Data
+## Availability of Raw Data
 Raw predictions files for a any given day will be available by **8:00a Eastern Standard Time**
 
-### File naming Convention
+## File naming Convention
 The file naming convention is as follows:
 
 `[report type]-[client id]-[facility id]-[report date YYYYMMDD].json`
@@ -43,12 +43,12 @@ The file naming convention is as follows:
 
 i.e. rth-sample-3-20231801.json
 
-### Permissions
+## Permissions
 Consumers of raw prediction files will have write/delete access permissions to the SFTP directory. They may choose to move files around, rename, create subdirectories as they see fit. SAIVA will not perform any file manipulation other than placing the files daily at the root directory  
 
 > Notes: If multiple consumers are reading the files, please make sure to coordinate between consumers how files are handled after reading is complete in order not to create any conflicts.
 
-### Payload Schema and Examples
+## Payload Schema and Examples
 Raw predictions payload is json formatted according to the following schema:
 
 ```json
@@ -230,7 +230,7 @@ Example file payload (QM = RTH, risk list length = 3):
 }
 ```
 
-### PDF Report Download
+## PDF Report Download
 > Support for this functionality will be available mid-March '23
 
 In order to download the PDF report for the facility, use the *report_download_url* property value in conjunction with the unique secret that is provided to you separately from the MySAIVA setup screen (UI TBD). 
@@ -255,5 +255,5 @@ Using curl:
         -H "Accept: application/pdf"
     
 A successful call to the above call will redirect to download using HTTPS the report file from a temporary URL that will expire after 5 minutes. 
-### Get Help
+## Get Help
 For questions and support issues please contact support@saiva.ai
