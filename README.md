@@ -25,7 +25,7 @@ Click on `Connect` to save and activate your connection. It typically takes abou
 - Click `Disconnect` to delete this integration. 
 > Notes: 
 > - When disconnecting, all exported files will be lost. This operation is irreversible. 
-> - Test will succeed only if there is prior raw prediction data for the selected facilities
+> - Test will produce output files on if raw prediction data aleady exists for the selected facilities
 
 
 ### Availability of Raw Data
