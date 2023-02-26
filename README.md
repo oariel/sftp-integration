@@ -1,7 +1,7 @@
 # SFTP Export Integration Guide
 ## Setting Up SFTP Export Integration
 
-The SFTP gateway allows licensed customers to receive daily, per-facility raw predictions in json format. The payload also includes a base URL for downloading the PDF report that requires an additional secret (UI TBD).
+The SFTP integration allows licensed customers to receive daily, per-facility raw predictions in json format. The payload also includes a base URL for downloading the PDF report that requires an additional secret (UI TBD).
 
 In order to set up the integration, navigate to the `Integrations` section of MySAIVA located at [app.saiva.ai](https://app.saiva.ai "app.saiva.ai"). 
 > Note: You must be an Org Administrator in order to access this function:
