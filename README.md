@@ -233,7 +233,7 @@ Example file payload (QM = RTH, risk list length = 3):
 ### PDF Report Download
 > Support for this functionality will be available mid-March '23
 
-In order to download the PDF report for the facility, use the report_download_url property value in conjunction with the unique secret that is provided to you separately from the MySAIVA setup screen (UI TBD). 
+In order to download the PDF report for the facility, use the *report_download_url* property value in conjunction with the unique secret that is provided to you separately from the MySAIVA setup screen (UI TBD). 
 
 For example:
 
