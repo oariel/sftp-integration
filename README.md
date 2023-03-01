@@ -231,9 +231,9 @@ Example file payload (QM = RTH, risk list length = 3):
 ```
 
 ## PDF Report Download
-> Support for this functionality will be available mid-March '23
+> Support for this functionality will be available mid-March '23 and spec has not yet been fully finalized
 
-In order to download the PDF report for the facility, use the *report_download_url* property value in conjunction with the unique secret that is provided to you separately from the MySAIVA setup screen (UI TBD). 
+In order to download the PDF report for the facility, use the *report_download_url* property value in conjunction with the unique API token that is provided to you separately from the MySAIVA integrations menu (UI TBD). 
 
 For example:
 
@@ -243,7 +243,7 @@ If:
 Call:
    `GET https://api.saiva.ai/v2/report/sample/rth/1/20230214`
 
-With the following secret value and accept mime type in the header:
+With the following API token value and accept mime type in the header:
 
     x-saiva-api-token: <API TOKEN VALUE>
     Accept: application/pdf
