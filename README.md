@@ -251,7 +251,7 @@ With the following API key value and accept mime type in the header:
 Using curl:
 
     curl GET https://api.saiva.ai/v2/report/sample/rth/1/20230214
-        -H Authorization: Bearer <API KEY VALUE>"
+        -H "Authorization: Bearer <API KEY VALUE>"
         -H "Accept: application/pdf"
     
 A successful call to the above call will redirect to download using HTTPS the report file from a temporary URL that will expire after 5 minutes. 
