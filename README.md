@@ -1,7 +1,7 @@
 # SFTP Export Integration Guide
 ## Setting Up SFTP Export Integration
 
-The SFTP integration allows licensed customers to receive daily, per-facility raw predictions in json format. The payload also includes a base URL for downloading the PDF report that requires an additional an additional API token (UI TBD).
+The SFTP integration allows licensed customers to receive daily, per-facility raw predictions in json format. The payload also includes a base URL for downloading the PDF report that requires an additional an additional API key (UI TBD).
 
 In order to set up the integration, navigate to the `Integrations` section of MySAIVA located at [app.saiva.ai](https://app.saiva.ai "app.saiva.ai"). 
 > Note: You must be an Org Administrator in order to access this function:
@@ -233,7 +233,7 @@ Example file payload (QM = RTH, risk list length = 3):
 ## PDF Report Download
 > Support for this functionality will be available mid-March '23 and spec has not yet been fully finalized
 
-In order to download the PDF report for the facility, use the *report_download_url* property value in conjunction with the unique and personalized API token that is provided to you separately from the MySAIVA integrations menu (UI TBD). 
+In order to download the PDF report for the facility, use the *report_download_url* property value in conjunction with the unique and personalized API key that is provided to you separately from the MySAIVA integrations menu (UI TBD). 
 
 For example:
 
@@ -243,15 +243,15 @@ If:
 Call:
    `GET https://api.saiva.ai/v2/report/sample/rth/1/20230214`
 
-With the following API token value and accept mime type in the header:
+With the following API key value and accept mime type in the header:
 
-    x-saiva-api-token: <API TOKEN VALUE>
+    x-saiva-api-key: <API KEY VALUE>
     Accept: application/pdf
 
 Using curl:
 
     curl GET https://api.saiva.ai/v2/report/sample/rth/1/20230214
-        -H "x-saiva-api-token: <API TOKEN VALUE>"
+        -H "x-saiva-api-key: <API KEY VALUE>"
         -H "Accept: application/pdf"
     
 A successful call to the above call will redirect to download using HTTPS the report file from a temporary URL that will expire after 5 minutes. 
