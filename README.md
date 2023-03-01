@@ -245,13 +245,13 @@ Call:
 
 With the following secret value and accept mime type in the header:
 
-    x-report-secret: <SECRET VALUE>
+    x-saiva-api-token: <API TOKEN VALUE>
     Accept: application/pdf
 
 Using curl:
 
     curl GET https://api.saiva.ai/v2/report/sample/rth/1/20230214
-        -H "x-report-secret: <SECRET VALUE>"
+        -H "x-saiva-api-token: <API TOKEN VALUE>"
         -H "Accept: application/pdf"
     
 A successful call to the above call will redirect to download using HTTPS the report file from a temporary URL that will expire after 5 minutes. 
