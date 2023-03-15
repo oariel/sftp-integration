@@ -168,7 +168,7 @@ Example file payload (QM = RTH, risk list length = 3):
     "facility_name": "Lincoln Center Transitional Rehab",
     "facility_id": 3,
     "report_date": "25/01/2023",
-    "report_download_url": "https://api.saiva.ai/v2/report/sample/rth/1/20230214",
+    "report_download_url": "https://api.prod.saiva.ai/sdk/v1/orgs/sample/daily-report/rth/facilities/1/date/2023-03-14/pdf",
     "risk_list_length": 3,
     "risk_list": [
         {
@@ -238,10 +238,10 @@ In order to download the PDF report for the facility, use the *report_download_u
 For example:
 
 If:
-   report_download_url value is: `https://api.saiva.ai/v2/report/sample/rth/1/20230214`
+   report_download_url value is: `https://api.prod.saiva.ai/sdk/v1/orgs/sample/daily-report/rth/facilities/1/date/2023-03-14/pdf`
 
 Call:
-   `GET https://api.saiva.ai/v2/report/sample/rth/1/20230214`
+   `GET https://api.prod.saiva.ai/sdk/v1/orgs/sample/daily-report/rth/facilities/1/date/2023-03-14/pdf`
 
 With the following API key value and accept mime type in the header:
 
@@ -250,7 +250,7 @@ With the following API key value and accept mime type in the header:
 
 Using curl:
 
-    curl GET https://api.saiva.ai/v2/report/sample/rth/1/20230214
+    curl GET https://api.prod.saiva.ai/sdk/v1/orgs/sample/daily-report/rth/facilities/1/date/2023-03-14/pdf
         -H "Authorization: Bearer <API KEY>"
         -H "Accept: application/pdf"
     
