@@ -258,7 +258,7 @@ A successful call to the above call will respond with a 403 redirect containing 
 
 An unsuccessful call will result in a response different than 403 and an error object. For example:
 
-    `{"code":"auth_token_invalid","status_code":401,"details":null}`
+    {"code":"auth_token_invalid","status_code":401,"details":null}
 
 ## Get Help
 For questions and support issues please contact support@saiva.ai
