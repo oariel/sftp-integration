@@ -254,6 +254,6 @@ Using curl:
         -H "Authorization: Bearer <API KEY>"
         -H "Accept: application/pdf"
     
-A successful call to the above call will respond with a redirect containint a location to download using HTTPS the report file from a temporary URL that will expire after 5 minutes. 
+A successful call to the above call will respond with a redirect containing a location to download using HTTPS the report file from a temporary URL that will expire after 5 minutes. 
 ## Get Help
 For questions and support issues please contact support@saiva.ai
