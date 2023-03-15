@@ -250,7 +250,7 @@ With the following API key value and accept mime type in the header:
 
 Using curl:
 
-    curl GET https://api.prod.saiva.ai/sdk/v1/orgs/sample/daily-report/rth/facilities/1/date/2023-03-14/pdf
+    curl -X GET https://api.prod.saiva.ai/sdk/v1/orgs/sample/daily-report/rth/facilities/1/date/2023-03-14/pdf
         -H "Authorization: Bearer <API KEY>"
         -H "Accept: application/pdf"
     
