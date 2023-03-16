@@ -261,11 +261,12 @@ An unsuccessful call will result in a response different than 403 and an error o
     {"code":"auth_token_invalid","status_code":401,"details":"Invalid authorization token"}
     
 ## PDF Report Download Error Codes
-|Code|Description|
-|auth_token_invalid|Invalid authorization token|
-|auth_token_missing_required_scopes|Token scope is insufficient to perform requested operation|
-|analytics_daily_risk_report_invalid_date|Provided date for requested report has an invalid format|
-|analytics_daily_risk_report_not_found|The requested report was not found|
+Code|Description
+------------- | -------------
+auth_token_invalid|Invalid authorization token
+auth_token_missing_required_scopes|Token scope is insufficient to perform requested operation
+analytics_daily_risk_report_invalid_date|Provided date for requested report has an invalid format
+analytics_daily_risk_report_not_found|The requested report was not found
 
 
 ## Get Help
