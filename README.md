@@ -261,6 +261,7 @@ An unsuccessful call will result in a response different than 403 and an error o
     {"code":"auth_token_invalid","status_code":401,"details":"Invalid authorization token"}
     
 ## PDF Report Download Error Codes
+Following is a list of possible return codes for a request to a daily facility risk report: 
 Code|Description
 ------------- | -------------
 auth_token_invalid|Invalid authorization token
