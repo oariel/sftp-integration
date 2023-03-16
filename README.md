@@ -4,7 +4,7 @@
 The SFTP integration allows licensed customers to receive daily, per-facility raw predictions in json format. The payload also includes a base URL for downloading the PDF report that requires an additional an additional API key.
 
 In order to set up the integration, navigate to the `Integrations` section of MySAIVA located at [app.saiva.ai](https://app.saiva.ai "app.saiva.ai"). 
-> Note: You must be an Org Administrator in order to access this function:
+> Note: You must be an Org Administrator in order to access this function
 
 ![Integrations](https://raw.githubusercontent.com/saivaai/sftp-integration/dev/images/Integrations.png "Integrations")
 
