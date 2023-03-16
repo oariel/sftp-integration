@@ -1,7 +1,7 @@
 # SFTP Export Integration Guide
 ## Setting Up SFTP Export Integration
 
-The SFTP integration allows licensed customers to receive daily, per-facility raw predictions in json format. The payload also includes a base URL for downloading the PDF report that requires an additional an additional API key (token) which can be generated using the [Developer Toolkit Integration](https://github.com/saivaai/api-integration).
+The SFTP integration allows licensed customers to receive daily, per-facility raw predictions in json format. The payload also includes a base URL for downloading the PDF report that requires an additional an additional API token (key) which can be generated using the [Developer Toolkit Integration](https://github.com/saivaai/api-integration).
 
 In order to set up the integration, navigate to the `Integrations` section of MySAIVA located at [app.saiva.ai](https://app.saiva.ai "app.saiva.ai"). 
 > Note: You must be an Org Administrator in order to access this function
@@ -233,7 +233,7 @@ Example file payload (QM = RTH, risk list length = 3):
 ## PDF Report Download
 > Support for this functionality will be available mid-March '23
 
-In order to download the PDF report for the facility, use the *report_download_url* property value in conjunction with the unique and personalized API key that can be generated using the [Developer Toolkit Integration](https://github.com/saivaai/api-integration). 
+In order to download the PDF report for the facility, use the *report_download_url* property value in conjunction with the unique and personalized API token generated using the [Developer Toolkit Integration](https://github.com/saivaai/api-integration). 
 
 For example:
 
@@ -245,13 +245,13 @@ Call:
 
 With the following API key value and accept mime type in the header:
 
-    Authorization: Bearer <API KEY>
+    Authorization: Bearer <API TOKEN>
     Accept: application/pdf
 
 Using curl:
 
     curl https://api.prod.saiva.ai/sdk/v1/orgs/sample/daily-report/rth/facilities/1/date/2023-03-14/pdf
-        -H "Authorization: Bearer <API KEY>"
+        -H "Authorization: Bearer <API TOKEN>"
         -H "Accept: application/pdf"
     
 A successful call to the above call will respond with a 403 redirect containing a location to download using HTTPS the report file from a temporary URL that will expire after 5 minutes. 
