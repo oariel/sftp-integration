@@ -252,7 +252,7 @@ Using curl:
 
     curl https://api.prod.saiva.ai/sdk/v1/orgs/sample/daily-report/rth/facilities/1/date/2023-03-14/pdf
         -H "Authorization: Bearer <API TOKEN>"
-        -H "Accept: application/pdf"
+        -H "Accept: application/pdf" -v
     
 A successful call to the above call will respond with a 403 redirect containing a location to download using HTTPS the report file from a temporary URL that will expire after 5 minutes. 
 
