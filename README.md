@@ -231,7 +231,7 @@ Example file payload (QM = RTH, risk list length = 3):
 ```
 
 ## PDF Report Download
-> Support for this functionality will be available mid-March '23 and spec has not yet been fully finalized
+> Support for this functionality will be available mid-March '23
 
 In order to download the PDF report for the facility, use the *report_download_url* property value in conjunction with the unique and personalized API key that can be generated using the [Developer Toolkit Integration](https://github.com/saivaai/api-integration). 
 
