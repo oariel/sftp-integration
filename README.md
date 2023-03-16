@@ -243,7 +243,7 @@ If:
 Call:
    `GET https://api.prod.saiva.ai/sdk/v1/orgs/sample/daily-report/rth/facilities/1/date/2023-03-14/pdf`
 
-With the following API key value and accept mime type in the header:
+With the API token value and accept mime type in the header:
 
     Authorization: Bearer <API TOKEN>
     Accept: application/pdf
