@@ -8,7 +8,7 @@ In order to set up the integration, navigate to the `Integrations` section of My
 
 ![Integrations](https://raw.githubusercontent.com/saivaai/sftp-integration/dev/images/Integrations.png "Integrations")
 
-Choose SFTP Export and click on `Connect` to enter the setup screen.
+Choose *SFTP Export* and click on `Connect` to enter the setup screen.
 
 Select the facilities and the quality measures to export. For authentication, paste your public key into the Public Key placeholder:
 
