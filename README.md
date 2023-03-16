@@ -262,7 +262,7 @@ An unsuccessful call will result in a response different than 403 and an error o
     
 ## PDF Report Download Error Codes
 Following is a list of possible return codes for a request to a daily facility risk report: 
-HTTP Error Code|Returned Error Code|Description
+HTTP Error Code|Error Object Code|Description
 ------------- | ------------- | -------------
 401|auth_token_invalid|Invalid authorization token
 401|auth_token_missing_required_scopes|Token scope is insufficient to perform requested operation
